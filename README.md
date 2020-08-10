@@ -8,8 +8,9 @@ The official Ember tutorial: an AirBNB clone.
 - https://ember-super-rentals.netlify.app/
 - https://github.com/ember-learn/super-rentals/tree/super-rentals-tutorial-output
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+## External Resources
+
+- https://www.mapbox.com/
 
 ## Prerequisites
 

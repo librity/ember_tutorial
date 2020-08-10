@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function(environment) {
+module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'ember-tutorial',
     environment,
@@ -13,14 +13,14 @@ module.exports = function(environment) {
       },
       EXTEND_PROTOTYPES: {
         // Prevent Ember Data from overriding Date.parse.
-        Date: false
-      }
+        Date: false,
+      },
     },
 
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
   };
 
   if (environment === 'development') {
@@ -46,6 +46,9 @@ module.exports = function(environment) {
   if (environment === 'production') {
     // here you can enable a production-specific feature
   }
+
+  ENV.MAPBOX_ACCESS_TOKEN =
+    'pk.eyJ1IjoibGlicml0eSIsImEiOiJja2Ruc2xvZnQxY2M1MnlsNTJrcmxhcDU5In0.LPAmTpo1c2YHhQDcYBqtXw';
 
   return ENV;
 };
